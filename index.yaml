@@ -1,0 +1,51 @@
+apiVersion: v1
+entries:
+  ndb-operator:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Helm chart for the NDB operator"
+        - kind: security
+          description: "Updated kube-proxy version"
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/crds: "- kind: Database\n  version: v1alpha1\n  name: Database
+        \n"
+      artifacthub.io/crdsExamples: |
+        - apiVersion: ndb.nutanix.com/v1alpha1
+          kind: Database
+          metadata:
+            name: db
+          spec:
+            ndb:
+              clusterId: "Nutanix Cluster Id"
+              credentialSecret : ndb-secret-name
+              server: https://[NDB IP]:8443/era/v0.9
+              skipCertificateVerification: true
+            databaseInstance:
+              databaseInstanceName: "Database Instance Name"
+              databaseNames:
+                - alpha
+                - beta
+              credentialSecret: db-instance-secret-name
+              size: 10
+              timezone: "UTC"
+              type: postgres
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: "- name: Balakumar Balu\n  email: balakumar.balu@nutanix.com\n-
+        name: Krunal Jhaveri\n  email: krunal.jhaveri@nutanix.com\n- name: Manav Rajvanshi\n
+        \ email: manav.rajvanshi@nutanix.com \n- name: Nutanix Cloud Native Team\n
+        \ email: cloudnative@nutanix.com\n"
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Basic Install
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: v0.0.2
+    created: "2022-10-12T15:40:26.641571-07:00"
+    description: A Helm chart for Nutanix Database Kubernetes Operator
+    digest: c2c783603f952bbeb7b86f9a43fd078e53076e1a51c5a56f7ae5b56c131c463b
+    name: ndb-operator
+    type: application
+    urls:
+    - ndb-operator-0.0.2.tgz
+    version: 0.0.2
+generated: "2022-10-12T15:40:26.640572-07:00"
