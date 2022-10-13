@@ -8,8 +8,10 @@ entries:
         - kind: security
           description: "Updated kube-proxy version"
       artifacthub.io/containsSecurityUpdates: "true"
-      artifacthub.io/crds: "- kind: Database\n  version: v1alpha1\n  name: Database
-        \n"
+      artifacthub.io/crds: |
+        - kind: Database
+          version: v1alpha1
+          name: Database
       artifacthub.io/crdsExamples: |
         - apiVersion: ndb.nutanix.com/v1alpha1
           kind: Database
@@ -31,21 +33,35 @@ entries:
               timezone: "UTC"
               type: postgres
       artifacthub.io/license: Apache-2.0
-      artifacthub.io/maintainers: "- name: Balakumar Balu\n  email: balakumar.balu@nutanix.com\n-
-        name: Krunal Jhaveri\n  email: krunal.jhaveri@nutanix.com\n- name: Manav Rajvanshi\n
-        \ email: manav.rajvanshi@nutanix.com \n- name: Nutanix Cloud Native Team\n
-        \ email: cloudnative@nutanix.com\n"
+      artifacthub.io/maintainers: |
+        - name: Balakumar Balu
+          email: balakumar.balu@nutanix.com
+        - name: Krunal Jhaveri
+          email: krunal.jhaveri@nutanix.com
+        - name: Manav Rajvanshi
+          email: manav.rajvanshi@nutanix.com
+        - name: Nutanix Cloud Native Team
+          email: cloudnative@nutanix.com
       artifacthub.io/operator: "true"
       artifacthub.io/operatorCapabilities: Basic Install
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-10-12T15:40:26.641571-07:00"
+    created: "2022-10-13T15:51:46.840432-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: c2c783603f952bbeb7b86f9a43fd078e53076e1a51c5a56f7ae5b56c131c463b
+    digest: 7d922e5e8d78b786bfffe487b3a9763b2a58a6591aa31a777aa5f33fc42fef6e
+    maintainers:
+    - email: balakumar.balu@nutanix.com
+      name: balakumarbalu
+    - email: krunal.jhaveri@nutanix.com
+      name: krunal-jhaveri
+    - email: manav.rajvanshi@nutanix.com
+      name: manavrajvanshi
+    - email: cloudnative@nutanix.com
+      name: nutanix-cloud-native-bot
     name: ndb-operator
     type: application
     urls:
     - ndb-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2022-10-12T15:40:26.640572-07:00"
+generated: "2022-10-13T15:51:46.839662-07:00"
