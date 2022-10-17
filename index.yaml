@@ -22,7 +22,7 @@ entries:
               clusterId: "Nutanix Cluster Id"
               credentialSecret : ndb-secret-name
               server: https://[NDB IP]:8443/era/v0.9
-              skipCertificateVerification: true
+              skipCertificateVerification: false
             databaseInstance:
               databaseInstanceName: "Database Instance Name"
               databaseNames:
@@ -47,9 +47,10 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-10-13T15:51:46.840432-07:00"
+    created: "2022-10-17T10:54:21.649524-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: 7d922e5e8d78b786bfffe487b3a9763b2a58a6591aa31a777aa5f33fc42fef6e
+    digest: 89e25ed99cef63e76de14052ee3b1fd37ec722e850da7bcec5fe146a1b157424
+    icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
     maintainers:
     - email: balakumar.balu@nutanix.com
       name: balakumarbalu
@@ -64,4 +65,4 @@ entries:
     urls:
     - ndb-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2022-10-13T15:51:46.839662-07:00"
+generated: "2022-10-17T10:54:21.648628-07:00"
