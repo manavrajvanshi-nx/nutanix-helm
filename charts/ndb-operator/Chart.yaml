@@ -21,10 +21,10 @@ annotations:
     - kind: security
       description: "Updated kube-proxy version"
   artifacthub.io/containsSecurityUpdates: "true"
-  # artifacthub.io/crds: |
-  #   - kind: Database
-  #     version: v1alpha1
-  #     name: Database
+  artifacthub.io/crds: |
+    - kind: Database
+      version: v1alpha1
+      name: Database
   # artifacthub.io/crdsExamples: |
   #   - apiVersion: ndb.nutanix.com/v1alpha1
   #     kind: Database

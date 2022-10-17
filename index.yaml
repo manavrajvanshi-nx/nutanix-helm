@@ -8,6 +8,10 @@ entries:
         - kind: security
           description: "Updated kube-proxy version"
       artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/crds: |
+        - kind: Database
+          version: v1alpha1
+          name: Database
       artifacthub.io/license: Apache-2.0
       artifacthub.io/maintainers: |
         - name: Balakumar Balu
@@ -23,9 +27,9 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-10-17T12:25:36.898073-07:00"
+    created: "2022-10-17T12:36:06.373543-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: b4b1460629d519ff98c578d3713c23f86c9e338264ed85b7ed36f46bd0eb9549
+    digest: 5affc2e04fa44179dd0b367baf058911bd88d7221e2ed12dee924e2a7411a8bc
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
     maintainers:
     - email: balakumar.balu@nutanix.com
@@ -41,4 +45,4 @@ entries:
     urls:
     - ndb-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2022-10-17T12:25:36.897219-07:00"
+generated: "2022-10-17T12:36:06.372714-07:00"
