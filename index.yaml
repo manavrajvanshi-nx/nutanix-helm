@@ -8,30 +8,6 @@ entries:
         - kind: security
           description: "Updated kube-proxy version"
       artifacthub.io/containsSecurityUpdates: "true"
-      artifacthub.io/crds: |
-        - kind: Database
-          version: v1alpha1
-          name: Database
-      artifacthub.io/crdsExamples: |
-        - apiVersion: ndb.nutanix.com/v1alpha1
-          kind: Database
-          metadata:
-            name: db
-          spec:
-            ndb:
-              clusterId: "Nutanix Cluster Id"
-              credentialSecret : ndb-secret-name
-              server: https://[NDB IP]:8443/era/v0.9
-              skipCertificateVerification: false
-            databaseInstance:
-              databaseInstanceName: "Database Instance Name"
-              databaseNames:
-                - alpha
-                - beta
-              credentialSecret: db-instance-secret-name
-              size: 10
-              timezone: "UTC"
-              type: postgres
       artifacthub.io/license: Apache-2.0
       artifacthub.io/maintainers: |
         - name: Balakumar Balu
@@ -47,9 +23,9 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-10-17T11:36:35.925049-07:00"
+    created: "2022-10-17T12:24:12.489512-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: b0be0c63d5820d10e3d28c4d15724d8997eff349a9200826d2ea56a1fa99381b
+    digest: f1058c6638d132fe0c76d441b11c6d1fb9a31bdb11c3d866ffb21dab44ce480a
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
     maintainers:
     - email: balakumar.balu@nutanix.com
@@ -65,4 +41,4 @@ entries:
     urls:
     - ndb-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2022-10-17T11:36:35.924114-07:00"
+generated: "2022-10-17T12:24:12.488374-07:00"
