@@ -1,0 +1,44 @@
+apiVersion: v1
+entries:
+  ndb-operator:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Helm chart for the NDB operator"
+        - kind: security
+          description: "Updated kube-proxy version"
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: |
+        - name: Balakumar Balu
+          email: balakumar.balu@nutanix.com
+        - name: Krunal Jhaveri
+          email: krunal.jhaveri@nutanix.com
+        - name: Manav Rajvanshi
+          email: manav.rajvanshi@nutanix.com
+        - name: Nutanix Cloud Native Team
+          email: cloudnative@nutanix.com
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Basic Install
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-05-03T15:41:05.325282-07:00"
+    description: A Helm chart for Nutanix Database Kubernetes Operator
+    digest: 11df06def0841894dc46bd3585c3967a4c2c4608797467068024a3a864a0851d
+    icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
+    maintainers:
+    - email: balakumar.balu@nutanix.com
+      name: balakumarbalu
+    - email: krunal.jhaveri@nutanix.com
+      name: krunal-jhaveri
+    - email: manav.rajvanshi@nutanix.com
+      name: manavrajvanshi
+    - email: cloudnative@nutanix.com
+      name: nutanix-cloud-native-bot
+    name: ndb-operator
+    type: application
+    urls:
+    - ndb-operator-0.0.3.tgz
+    version: 0.0.3
+generated: "2023-05-03T15:41:05.323516-07:00"
