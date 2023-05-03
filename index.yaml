@@ -22,8 +22,48 @@ entries:
       artifacthub.io/operatorCapabilities: Basic Install
       artifacthub.io/prerelease: "true"
     apiVersion: v2
+    appVersion: v0.0.3
+    created: "2023-05-03T15:43:54.102768-07:00"
+    description: A Helm chart for Nutanix Database Kubernetes Operator
+    digest: 8536c65a4620bc22b7dc27ccd44514996e45f5d8524a5b8451ef7bf5d82bbce6
+    icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
+    maintainers:
+    - email: balakumar.balu@nutanix.com
+      name: balakumarbalu
+    - email: krunal.jhaveri@nutanix.com
+      name: krunal-jhaveri
+    - email: manav.rajvanshi@nutanix.com
+      name: manavrajvanshi
+    - email: cloudnative@nutanix.com
+      name: nutanix-cloud-native-bot
+    name: ndb-operator
+    type: application
+    urls:
+    - ndb-operator-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Helm chart for the NDB operator"
+        - kind: security
+          description: "Updated kube-proxy version"
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: |
+        - name: Balakumar Balu
+          email: balakumar.balu@nutanix.com
+        - name: Krunal Jhaveri
+          email: krunal.jhaveri@nutanix.com
+        - name: Manav Rajvanshi
+          email: manav.rajvanshi@nutanix.com
+        - name: Nutanix Cloud Native Team
+          email: cloudnative@nutanix.com
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Basic Install
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
     appVersion: v0.0.2
-    created: "2022-10-17T13:38:33.670808-07:00"
+    created: "2023-05-03T15:43:54.102089-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 654b479b8c85ce65d50ee44965cbfa0374993b734c431c2afdd47a3460ade0d2
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -41,4 +81,4 @@ entries:
     urls:
     - ndb-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2022-10-17T13:38:33.66758-07:00"
+generated: "2023-05-03T15:43:54.100561-07:00"
