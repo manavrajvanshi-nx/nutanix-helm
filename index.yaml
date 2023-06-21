@@ -3,7 +3,7 @@ entries:
   ndb-operator:
   - annotations:
       artifacthub.io/changes: |
-       - kind: added
+        - kind: added
           description: "MSSQL Provisioning"
         - kind: added
           description: "Ability to provide profile information"
@@ -25,21 +25,21 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.5
-    created: "2023-06-21T12:47:53.35654-07:00"
+    created: "2023-06-21T13:29:03.096626-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
-    digest: 9e3bdb96592482b4f2bc6dfd2292f29e949e56053e92268e111e6fa697858738
+    digest: dd568b6260d22a2a8279417daba62b45b7aa3db46b23262bc92f85d3578c7f13
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
     maintainers:
-    - name: Akshay Mishra
-      email: akshay.mishra@nutanix.com
-    - name: Pritika Shenoy
-      email: pritika.shenoy@nutanix.com
-    - name: Krunal Jhaveri
-      email: krunal.jhaveri@nutanix.com
-    - name: Manav Rajvanshi
-      email: manav.rajvanshi@nutanix.com
-    - name: Nutanix Cloud Native Team
-      email: cloudnative@nutanix.com
+    - email: akshay.mishra@nutanix.com
+      name: Akshay Mishra
+    - email: pritika.shenoy@nutanix.com
+      name: Pritika Shenoy
+    - email: krunal.jhaveri@nutanix.com
+      name: Krunal Jhaveri
+    - email: manav.rajvanshi@nutanix.com
+      name: Manav Rajvanshi
+    - email: cloudnative@nutanix.com
+      name: Nutanix Cloud Native Team
     name: ndb-operator
     type: application
     urls:
@@ -67,7 +67,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.4
-    created: "2023-06-21T12:47:53.355452-07:00"
+    created: "2023-06-21T13:29:03.094492-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: fa395ee5a3360d8834341942a57da7abe6d81366e4afe482567ec8d269adf464
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -107,7 +107,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.3
-    created: "2023-06-21T12:47:53.354362-07:00"
+    created: "2023-06-21T13:29:03.09383-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 8536c65a4620bc22b7dc27ccd44514996e45f5d8524a5b8451ef7bf5d82bbce6
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -147,7 +147,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: v0.0.2
-    created: "2023-06-21T12:47:53.352591-07:00"
+    created: "2023-06-21T13:29:03.093103-07:00"
     description: A Helm chart for Nutanix Database Kubernetes Operator
     digest: 654b479b8c85ce65d50ee44965cbfa0374993b734c431c2afdd47a3460ade0d2
     icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
@@ -165,4 +165,4 @@ entries:
     urls:
     - ndb-operator-0.0.2.tgz
     version: 0.0.2
-generated: "2023-06-21T12:47:53.350613-07:00"
+generated: "2023-06-21T13:29:03.091235-07:00"
