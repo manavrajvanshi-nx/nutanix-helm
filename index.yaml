@@ -4,6 +4,64 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: "Added the K8s Webhooks support for the validation of database specs"
+        - kind: added
+          description: "Added Provisioning Operation Id to the DB Status"
+        - kind: added
+          description: "Integrated Kubernetes events with the operator"
+        - kind: added
+          description: "Added description property for Database in the database specs"
+        - kind: added
+          description: "Added end-to-end tests for automated testing of operator"
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/maintainers: |
+        - name: Mazin Shaaeldin
+          email: mazin.shaaeldin@nutanix.com
+        - name: Akshay Mishra
+          email: akshay.mishra@nutanix.com
+        - name: Pritika Shenoy
+          email: pritika.shenoy@nutanix.com
+        - name: Krunal Jhaveri
+          email: krunal.jhaveri@nutanix.com
+        - name: Manav Rajvanshi
+          email: manav.rajvanshi@nutanix.com
+        - name: Yashesh Mankad
+          email: yashesh.mankad@nutanix.com
+        - name: Nutanix Cloud Native Team
+          email: cloudnative@nutanix.com
+      artifacthub.io/operator: "true"
+      artifacthub.io/operatorCapabilities: Basic Install
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: v0.0.7
+    created: "2023-08-30T04:21:31.994122493Z"
+    description: A Helm chart for Nutanix Database Kubernetes Operator
+    digest: bff7f7fb80aebfe37b03872f6c44d1ce7c5709b0c1828109df656aae100d5b68
+    icon: https://www.nutanix.com/content/dam/nutanix/global/icons/products/svg/Nutanix-Era-40.svg
+    maintainers:
+    - email: mazin.shaaeldin@nutanix.com
+      name: mazin-s
+    - email: akshay.mishra@nutanix.com
+      name: akshmish
+    - email: pritika.shenoy@nutanix.com
+      name: shenoypritika
+    - email: krunal.jhaveri@nutanix.com
+      name: krunal-jhaveri
+    - email: manav.rajvanshi@nutanix.com
+      name: manavrajvanshi
+    - email: yashesh.mankad@nutanix.com
+      name: yash-ntnx
+    - email: cloudnative@nutanix.com
+      name: nutanix-cloud-native-bot
+    name: ndb-operator
+    type: application
+    urls:
+    - https://github.com/manavrajvanshi/nutanix-helm/releases/download/ndb-operator-0.0.7/ndb-operator-0.0.7.tgz
+    version: 0.0.7
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: "MSSQL Provisioning"
         - kind: added
           description: "Ability to provide profile information"
@@ -168,6 +226,45 @@ entries:
   nutanix-csi-storage:
   - annotations:
       artifacthub.io/changes: |
+        - Update Nutanix CSI driver to v2.6.4
+        - Update CSI Sidecar version
+      artifacthub.io/containsSecurityUpdates: "true"
+      artifacthub.io/displayName: Nutanix CSI Storage
+      artifacthub.io/links: |
+        - name: Nutanix CSI Driver documentation
+          url: https://portal.nutanix.com/page/documents/details?targetId=CSI-Volume-Driver-v2_6:CSI-Volume-Driver-v2_6
+      artifacthub.io/maintainers: |
+        - name: Nutanix Cloud Native Team
+          email: cloudnative@nutanix.com
+      artifacthub.io/recommendations: |
+        - url: https://artifacthub.io/packages/helm/nutanix/nutanix-csi-snapshot
+    apiVersion: v1
+    appVersion: 2.6.4
+    created: "2023-08-30T04:21:32.141840874Z"
+    description: Nutanix Container Storage Interface (CSI) Driver
+    digest: be35bd119c2440db008783b8d5a76b598c6ad5ed0d565f4a5b2c429abe0982c7
+    home: https://github.com/nutanix/helm
+    icon: https://avatars2.githubusercontent.com/u/6165865?s=200&v=4
+    keywords:
+    - Nutanix
+    - Storage
+    - Volumes
+    - Files
+    - StorageClass
+    - RedHat
+    - CentOS
+    - Ubuntu
+    - CSI
+    kubeVersion: '>= 1.17.0-0'
+    maintainers:
+    - email: cloudnative@nutanix.com
+      name: nutanix-cloud-native-bot
+    name: nutanix-csi-storage
+    urls:
+    - https://github.com/manavrajvanshi/nutanix-helm/releases/download/nutanix-csi-storage-2.6.4/nutanix-csi-storage-2.6.4.tgz
+    version: 2.6.4
+  - annotations:
+      artifacthub.io/changes: |
         - Update Nutanix CSI driver to v2.6.3
         - Update CSI Sidecar version
       artifacthub.io/containsSecurityUpdates: "true"
@@ -205,4 +302,4 @@ entries:
     urls:
     - https://github.com/manavrajvanshi/nutanix-helm/releases/download/nutanix-csi-storage-2.6.3/nutanix-csi-storage-2.6.3.tgz
     version: 2.6.3
-generated: "2023-07-24T18:07:19.207571265Z"
+generated: "2023-08-30T04:21:32.141857074Z"
